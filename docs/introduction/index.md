@@ -18,11 +18,9 @@ examples:
 
 [glitch]: http://glitch.com/~aframe
 
-A-Frame can be developed from a plain HTML file without having to install
-anything. A great way to try out A-Frame is to **[remix the starter example on
-Glitch][glitch]**, an online code editor that instantly hosts and deploys for
-free. Alternatively, create an `.html` file and include A-Frame in the
-`<head>`:
+A-Frame은 어떠한 설치없이도 순수 HTML 파일로 개발할 수 있습니다. A-Frame 을 시도하기 위한 가장 좋은 방법은,
+**[remix the starter example on Glitch][glitch]** 에서 찾을 수 있고, 온라인 코드 에디터로 즉각적으로 호스팅하고 무료로 배포할 수 있습니다.
+대안책으로는, 기존에 사용하던 `.html` 파일의  `<head>` 태그 안에 `A-Frame` 을 포함하는 코드를 작성하는 것 입니다.
 
 ```html
 <html>
@@ -44,34 +42,26 @@ free. Alternatively, create an `.html` file and include A-Frame in the
 [Installation]: ./installation.md
 [school]: https://aframe.io/school/
 
-The [Installation] page provides more options for getting started with A-Frame.
-To get started learning A-Frame, check out [A-Frame School][school] for visual
-step-by-step lessons to complement the documentation.
+[Installation] 페이지에서는, A-Frame 을 시작하기 위한 조금 더 많은 getting started 옵션들을 제공합니다. `A-Frame`의 학습을 위해
+[A-Frame School][school] 를 체크하고, 단계별로 레슨을 완료하면서 학습하기를 권장합니다.
 
-## What is A-Frame?
+
+## A-Frame이란 무엇일까요?
 
 [github]: https://github.com/aframevr/
 [community]: https://aframe.io/community/
 
 ![A-Frame](https://cloud.githubusercontent.com/assets/674727/25392020/6f011d10-298c-11e7-845e-c3c5baebd14d.jpg)
 
-:a:-Frame is a web framework for building virtual reality (VR) experiences.
-A-Frame is based on top of HTML, making it simple to get started. But A-Frame
-is not just a 3D scene graph or a markup language; the core is a powerful
-entity-component framework that provides a declarative, extensible, and
-composable structure to [three.js].
+:A-Frame은 virtual reality(VR), 즉 가상 현실을 만들고 경험을 제공하기 위한 위한 웹 프레임워크에요. HTML 기반에서 동작하는 `A-Frame`은 입문하기 쉽도록 간단하게 만들어졌습니다.
+하지만 3D scene 이나 그래프 또는 마크업 언어와는 다른 특징을 가지고 있습니다.
+`A-Frame` 코어는 선언적인, 확장 가능한, 그리고 [three.js]로 구성가능한 구조를 지원하는 강력한 entity-component framework 입니다.
 
-Originally conceived within Mozilla and now maintained by the co-creators of
-A-Frame within [Supermedium](https://supermedium.com), A-Frame was developed to
-be an easy yet powerful way to develop VR content. As an [independent open
-source project][github], A-Frame has grown to be one of the [largest VR
-communities][community].
+`A-Frame` 은 모질라 재단에서 구상되었으며, 현재 Supermedium 내의 A-Frame의 공동 제작자가 유지 관리하고 있으며, VR 콘텐츠를 개발하는 쉽고 강력한 방법으로 개발되어 왔습니다.
+독립 오픈소스 프로젝트로서, A-Frame은 가장 큰 VR 커뮤니티 중 하나로 성장하게 되었습니다.
 
-A-Frame supports most VR headsets such as Vive, Rift, Windows Mixed Reality,
-Daydream, GearVR, Cardboard, Oculus Go, and can even be used for augmented
-reality.  Although A-Frame supports the whole spectrum, A-Frame aims to define
-fully immersive interactive VR experiences that go beyond basic 360&deg;
-content, making full use of positional tracking and controllers.
+A-Frame은 대부분의 VR 헤드셋 -- Vive, Rift, Windows Mixed Reality, Daydream, GearVR, Cardboard, Oculus Go, 그리고 Argument Reality(AR)을 모두 지원하고 있습니다.
+비록 A-Frame이 전반적인 스펙트럼을 지원하긴 하지만, 위치추적과 컨트롤러를 사용하여 만들어진 기본 360° 반경의 컨텐츠를 뛰어 넘어, 완전몰입형 interactive VR 경험을 정의하는데에 초점을 맞추고 있습니다.
 
 <div class="docs-introduction-examples">
   <a href="https://supermedium.com/supercraft">
@@ -154,30 +144,24 @@ systems], [physics], [multiuser], [oceans], [teleportation], [super hands], and
 :earth_americas: **Proven and Scalable**: A-Frame has been used by companies
 such as Google, Disney, Samsung, Toyota, Ford, Chevrolet, Amnesty
 International, CERN, NPR, Al Jazeera, The Washington Post, NASA. Companies such
-as Google, Microsoft, Oculus, and Samsung have made contributions to A-Frame.
+as Google, Microsoft, Oculus, and Samsung have made contributions to A-Frame.\
 
 ## Off You Go!
 
 [Discord]: https://supermedium.com/discord
 [slack]: https://aframe.io/slack-invite/
 
-If it's your first time here, here's a plan for success for getting into
-A-Frame:
+만약 여러분이 여기에 온게 처음이라면, `Aframe` 을 시작해볼 수 있는 몇가지 성공적인 플랜을 세워두었어요.
 
-1. [Subscribe to the Newsletter](https://aframe.io/subscribe/) for updates and
-tips on A-Frame and to see featured community projects.
+1. A-Frame과 커뮤니티 프로젝트를 볼 수 있도록 몇가지 팁과 업데이트 사안을 제공하는 [Subscribe to the Newsletter](https://aframe.io/subscribe/)  
+ 
+2. A-Frame을 시작하기 위한 공식문서를 읽어보세요. <br>
+[Glitch](https://glitch.com/~aframe) >> 코딩 플레이 그라운드로 사용되고 몇가지 좋은 예제들이 제공되고 있어요.
 
-2. Read through the documentation to get a grasp.
-[Glitch](https://glitch.com/~aframe) is used as a recommended coding playground
-and for examples.
+3. [Join us on Discord][Discord] 와 [Slack][slack] 그리고 만약 여러분이 궁금한게 있다면,
+[search and ask on StackOverflow](http://stackoverflow.com/questions/ask/?tags=aframe) 에서 질문하면
+누군가 여러분에게 도움을 줄 것입니다.
 
-3. [Join us on Discord][Discord] and [Slack][slack] and if you have any
-questions, [search and ask on StackOverflow](http://stackoverflow.com/questions/ask/?tags=aframe),
-and someone will try to get to you!
+4. 무언가를 만들 때, 프로젝트를 온라인으로 공유하세요. 그러면 기능을 사용할 수 있도록 노력하겠습니다. <br>
 
-4. When you build something, share your project online and we'll try to feature
-it on the [newsletter](https://aframe.io/subscribe/) and the
-[blog](https://aframe.io/blog/)!
-
-And it really helps to have a dig into the fundamentals on JavaScript and
-three.js. Have fun!
+그리고 자바스크립트와 three.js 에 대한 기초에 대해 알아보는게 많은 도움이 될 것 입니다. 즐거운 시간 되세요!
